@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="60" fill="white"/>
+  <text x="10" y="30" font-family="Arial" font-size="20" fill="#1e70b7" font-weight="bold">Jowers</text>
+  <text x="10" y="45" font-family="Arial" font-size="10" fill="#1e70b7" font-weight="bold">AUTO SERVICE</text>
+</svg>
