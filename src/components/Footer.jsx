@@ -1,4 +1,5 @@
 import { FaPhone, FaMapMarkerAlt, FaClock, FaFacebook } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -90,9 +91,18 @@ const Footer = () => {
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} Jowers Auto Service. All rights reserved.
           </p>
-          <p className="text-gray-400 text-sm">
-            Proudly serving Tallahassee for over 60 years.
-          </p>
+          <div className="flex items-center gap-6">
+            <p className="text-gray-400 text-sm">
+              Proudly serving Tallahassee for over 60 years.
+            </p>
+            <Link 
+              to="/admin/login" 
+              className="text-gray-500 hover:text-gray-300 text-xs transition-colors"
+              title="Management Portal"
+            >
+              Admin
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
